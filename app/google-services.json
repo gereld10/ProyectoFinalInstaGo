@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "572660448091",
+    "project_id": "instago-96b13",
+    "storage_bucket": "instago-96b13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572660448091:android:e63145ef36931c8352387e",
+        "android_client_info": {
+          "package_name": "com.example.instago"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572660448091-v6cd40qvroc62ncuej7jffpnpdplei3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzyRBzr0vJK4zPZ82JXf96GywFpDwl0MY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572660448091-v6cd40qvroc62ncuej7jffpnpdplei3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

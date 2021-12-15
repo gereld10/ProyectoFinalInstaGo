@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <include
+        android:id="@+id/toolbar_setup"
+        layout="@layout/toolbar_principal"></include>
+
+
+            <EditText
+                android:id="@+id/txtemail"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar_setup"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="11dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/textos"
+                android:hint="Ingresar Email"
+                android:inputType="text"
+                android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtemail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="11dp"
+        android:background="@drawable/textos"
+        android:hint="Ingresar Contraseña"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpassword"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="#1b5a8f"
+        android:text="Registrar"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+
+
+
+</RelativeLayout>
